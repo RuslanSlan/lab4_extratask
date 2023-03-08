@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.068" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="E:\lab4_extratask\PizzaSplit\target\test-classes;E:\lab4_extratask\PizzaSplit\target\classes;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\grenr\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\grenr\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\grenr\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="E:\IntelliJ IDEA Community Edition 2022.3.2\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\grenr\AppData\Local\Temp\surefire5886726442936783413\surefirebooter163508695208360780.jar C:\Users\grenr\AppData\Local\Temp\surefire5886726442936783413 2023-03-08T22-32-23_708-jvmRun1 surefire9629031353335688738tmp surefire_08002013997285245774tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\lab4_extratask\PizzaSplit\target\test-classes;E:\lab4_extratask\PizzaSplit\target\classes;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\grenr\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\grenr\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\grenr\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\grenr\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\grenr"/>
+    <property name="user.language" value="uk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="E:\IntelliJ IDEA Community Edition 2022.3.2\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\lab4_extratask\PizzaSplit"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="jbr.virtualization.information" value="Hyper-V role"/>
+    <property name="surefire.real.class.path" value="C:\Users\grenr\AppData\Local\Temp\surefire5886726442936783413\surefirebooter163508695208360780.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+1-b653.25"/>
+    <property name="user.name" value="grenr"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="JBR-17.0.5+1-653.25-jcef"/>
+    <property name="localRepository" value="C:\Users\grenr\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\grenr\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="E:\lab4_extratask\PizzaSplit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="E:\IntelliJ IDEA Community Edition 2022.3.2\jbr\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\grenr\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\grenr\AppData\Local\Programs\Python\Python311\;C:\Users\grenr\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2022.3.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3\bin;;C:\Java\jdk-17\bin;;E:\IntelliJ IDEA Community Edition 2022.3.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.version" value="17.0.5+1-b653.25"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test{String, String}[1]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.025"/>
+  <testcase name="test{String, String}[2]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+  <testcase name="test{String, String}[3]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.002"/>
+  <testcase name="test{String, String}[4]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+  <testcase name="test{String, String}[5]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+  <testcase name="test{String, String}[6]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+  <testcase name="test{String, String}[7]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.002"/>
+  <testcase name="test{String, String}[8]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+  <testcase name="test{String, String}[9]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+  <testcase name="test{String, String}[10]" classname="com.epam.rd.autotasks.pizzasplit.PizzaSplitTest" time="0.001"/>
+</testsuite>
